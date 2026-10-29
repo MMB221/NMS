@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#21070f">
+  <meta name="description" content="Un petit univers rien que pour Ndeye Maty.">
+  <title>Pour Ndeye Maty ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div><div class="ambient-glow glow-two"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Accueil">♡ <span>pour toi</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav id="navMenu" class="nav-menu">
+      <a href="#letter">Ma lettre</a><a href="#gallery">Nos souvenirs</a><a href="#reasons">Pourquoi toi</a><a href="#secret">Secret</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow"><span class="tiny-heart">♥</span> UN PETIT UNIVERS RIEN QUE POUR TOI</div>
+      <p class="hero-intro">J'ai quelque chose pour toi…</p>
+      <div class="hero-heart" aria-hidden="true">♡</div>
+      <h1>Ndeye Maty</h1>
+      <p class="subtitle">ma <em>Babygirl</em> <span>♡</span></p>
+      <p class="hero-copy">Aujourd'hui, c'est ton anniversaire.<br>Et j'ai préparé ce petit univers rien que pour toi.</p>
+      <a class="button button-primary" href="#letter">Ouvre ton cadeau <span>↗</span></a>
+      <a class="scroll-cue" href="#letter"><span>↓</span> fais défiler doucement</a>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-kicker">01 — QUELQUES MOTS DU CŒUR</div>
+      <h2>Une lettre pour <em>toi</em></h2>
+      <div class="letter-paper reveal">
+        <span class="paper-heart">♡</span>
+        <p class="letter-salutation">Ma Babygirl,</p>
+        <div class="letter-body">
+          <p>Aujourd'hui, ce n'est pas seulement le jour où tu es née. C'est aussi une occasion pour moi de te rappeler la place que tu as dans ma vie.</p>
+          <p>Quand je repense à nous, je revois nos moments à l'école, surtout quand les cours se terminaient et qu'on pouvait encore rester ensemble un peu. Puis il y a eu la plage, nos sorties le matin, celles du soir… et ce premier bisou que je garde précieusement dans ma mémoire.</p>
+          <p>Ce sont peut-être des choses simples, mais avec toi, elles deviennent des souvenirs que je n'échangerais pour rien au monde. J'aime ce qu'on construit, nos rires, nos moments tranquilles et tout ce qu'il nous reste à vivre.</p>
+          <p>Pour ton anniversaire, je te souhaite de recevoir autant de douceur que tu en apportes dans ma vie. Que cette nouvelle année t'offre de belles surprises, de la paix, de la réussite et mille raisons de sourire.</p>
+          <p class="letter-last">Je t'aime, Ndeye Maty. Joyeux anniversaire, mon amour. <span>♥</span></p>
+        </div>
+        <p class="signature">Avec tout mon cœur,<br><span>Ton Mousty ♡</span></p>
+        <div class="wax-seal" aria-hidden="true">♡</div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-kicker">02 — NOS PETITS TRÉSORS</div>
+      <h2>Notre <em>galerie</em></h2>
+      <p class="section-description">Appuie sur une photo. Chaque souvenir a quelque chose à te raconter.</p>
+      <div class="gallery-grid">
+        <button class="photo-card tall" data-title="Nos matins à la plage" data-message="L'air frais, la mer, le calme… et toi à côté de moi. Même les matins ordinaires deviennent spéciaux quand je les partage avec toi." data-photo="photos/photo-1.jpg">
+          <span class="photo-frame"><img src="photos/photo-1.jpg" alt="Souvenir de plage le matin" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">☀<small>Ajoute votre photo ici</small></span></span><span class="photo-caption">Nos matins à la plage <b>♡</b></span>
+        </button>
+        <button class="photo-card" data-title="Toi, tout simplement" data-message="Il y a des photos qu'on aime pour leur beauté, et d'autres qu'on aime parce qu'elles nous rappellent exactement pourquoi cette personne compte autant." data-photo="photos/photo-2.jpg">
+          <span class="photo-frame"><img src="photos/photo-2.jpg" alt="Portrait de Ndeye Maty" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">♡<small>Ajoute sa photo ici</small></span></span><span class="photo-caption">Toi, tout simplement <b>♡</b></span>
+        </button>
+        <button class="photo-card" data-title="Nos soirées à la plage" data-message="Le ciel change de couleur, la journée se termine, mais moi je pourrais rester là encore longtemps si c'est avec toi." data-photo="photos/photo-3.jpg">
+          <span class="photo-frame"><img src="photos/photo-3.jpg" alt="Souvenir de plage le soir" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">☾<small>Ajoute votre photo ici</small></span></span><span class="photo-caption">Nos soirées <b>♡</b></span>
+        </button>
+        <button class="photo-card wide" data-title="À l'école, avant tout ça" data-message="Avant les sorties et les souvenirs à la plage, il y avait déjà nous à l'école, surtout après les cours. J'aimais ces petits moments où je pouvais rester près de toi un peu plus longtemps." data-photo="photos/photo-4.jpg">
+          <span class="photo-frame"><img src="photos/photo-4.jpg" alt="Souvenir de l'école" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">✎<small>Ajoute une photo de l'école ici</small></span></span><span class="photo-caption">Après les cours… <b>♡</b></span>
+        </button>
+        <button class="photo-card" data-title="Notre premier bisou" data-message="Il y a des instants qui durent quelques secondes, mais qui restent longtemps dans le cœur. Celui-là en fait partie. ♡" data-photo="photos/photo-5.jpg">
+          <span class="photo-frame"><img src="photos/photo-5.jpg" alt="Souvenir symbolique de votre premier bisou" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">♥<small>Ajoute une photo souvenir ici</small></span></span><span class="photo-caption">Notre premier bisou <b>♡</b></span>
+        </button>
+        <button class="photo-card" data-title="Un moment rien qu'à nous" data-message="Pas besoin d'un grand événement. Parfois, le meilleur souvenir, c'est juste un moment simple avec la bonne personne." data-photo="photos/photo-6.jpg">
+          <span class="photo-frame"><img src="photos/photo-6.jpg" alt="Un moment ensemble" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">✧<small>Ajoute votre photo ici</small></span></span><span class="photo-caption">Un moment à nous <b>♡</b></span>
+        </button>
+        <button class="photo-card" data-title="Encore tant de souvenirs à créer" data-message="J'espère qu'on remplira encore beaucoup de galeries ensemble : de nouveaux endroits, de nouveaux fous rires et plein de souvenirs qu'on racontera plus tard." data-photo="photos/photo-7.jpg">
+          <span class="photo-frame"><img src="photos/photo-7.jpg" alt="Un souvenir heureux" onerror="this.parentElement.classList.add('placeholder');this.remove()"><span class="photo-placeholder">∞<small>Une autre photo de vous</small></span></span><span class="photo-caption">La suite de notre histoire <b>♡</b></span>
+        </button>
+      </div>
+      <p class="gallery-note">Remplace les images par vos vraies photos pour rendre cet album unique.</p>
+    </section>
+
+    <section class="section reasons-section" id="reasons">
+      <div class="section-kicker">03 — PETIT AVEU</div>
+      <h2>Quelques raisons pour lesquelles <em>c'est toi</em></h2>
+      <p class="section-description">Touche les cœurs un par un, Babygirl.</p>
+      <div class="reasons-grid">
+        <button class="reason-card" data-title="Ton sourire" data-message="Parce qu'il a ce pouvoir de rendre mes journées plus belles, même quand je ne m'y attends pas."><span>♡</span><small>01</small><b>Ton sourire</b></button>
+        <button class="reason-card" data-title="Ta présence" data-message="Parce que même les moments les plus simples prennent une autre valeur quand tu es là."><span>♡</span><small>02</small><b>Ta présence</b></button>
+        <button class="reason-card" data-title="Nos souvenirs" data-message="De l'école à nos sorties à la plage, j'aime qu'on ait une histoire qui nous appartient vraiment."><span>♡</span><small>03</small><b>Nos souvenirs</b></button>
+        <button class="reason-card" data-title="Ta façon d'être" data-message="Parce que tu es toi, avec ta personnalité, tes petites habitudes et tout ce qui te rend différente des autres."><span>♡</span><small>04</small><b>Ta façon d'être</b></button>
+        <button class="reason-card" data-title="Notre premier bisou" data-message="Parce que ce petit instant est devenu un souvenir précieux que je garde avec tendresse."><span>♡</span><small>05</small><b>Notre premier bisou</b></button>
+      </div>
+      <p class="reasons-footer">Et la liste est loin d'être terminée… <span>♥</span></p>
+    </section>
+
+    <section class="section secret-section" id="secret">
+      <div class="secret-lock">♙</div>
+      <div class="section-kicker">04 — CONFIDENTIEL, BABYGIRL</div>
+      <h2>Un petit <em>secret</em></h2>
+      <p class="section-description">Ce message est pour toi seulement.<br>Entre le mot de passe que je t'ai donné.</p>
+      <form class="secret-form" id="secretForm">
+        <label class="visually-hidden" for="secretPassword">Mot de passe</label>
+        <input id="secretPassword" type="password" placeholder="Le mot de passe…" autocomplete="off">
+        <button class="button button-primary" type="submit">Déverrouiller ♡</button>
+      </form>
+      <p class="secret-hint">Indice : un petit surnom qui te va bien…</p>
+      <div class="secret-message" id="secretMessage" hidden>
+        <span class="secret-big-heart">♥</span>
+        <h3>Juste entre nous</h3>
+        <p>Parmi toutes les belles choses que la vie peut offrir, je suis heureux qu'elle ait mis nos chemins sur la même route. Je ne sais pas tout ce que l'avenir nous réserve, mais j'espère qu'on aura encore plein de couchers de soleil, de rires, de bisous et de souvenirs à partager.</p>
+        <p class="script">Je te choisis, aujourd'hui aussi. ♡</p>
+      </div>
+      <p class="secret-error" id="secretError" role="status"></p>
+    </section>
+
+    <section class="final-section" id="final">
+      <div class="stars" aria-hidden="true"></div>
+      <p class="section-kicker">POUR TOI, AUJOURD'HUI ET DEMAIN</p>
+      <p class="final-small">Joyeux anniversaire,</p>
+      <h2>Ndeye Maty</h2>
+      <p class="final-subtitle">ma Babygirl <span>♡</span></p>
+      <p class="final-message">Si je pouvais t'offrir une seule chose aujourd'hui,<br>ce serait de te permettre de te voir à travers mes yeux,<br>juste une fois.</p>
+      <p class="final-script">Tu es une très belle partie de mon histoire. ♡</p>
+      <button class="button button-primary" id="kissButton">Encore un bisou ? <span>♥</span></button>
+      <p class="forever">fait avec amour, rien que pour toi</p>
+    </section>
+  </main>
+
+  <footer class="footer">Ndeye Maty ♡ — un souvenir numérique, une vraie histoire.</footer>
+
+  <dialog class="memory-dialog" id="memoryDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Fermer">×</button>
+    <div class="dialog-heart">♡</div>
+    <p class="section-kicker">UN PETIT SOUVENIR</p>
+    <h2 id="dialogTitle">Un moment à nous</h2>
+    <p id="dialogMessage"></p>
+    <button class="button button-outline" id="dialogOk">Garder ce souvenir ♡</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
